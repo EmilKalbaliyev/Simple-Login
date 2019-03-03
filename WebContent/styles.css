@@ -1,0 +1,93 @@
+html{
+	background: url("img.jpg") ;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+form{
+	padding-left:37%;
+}
+div{
+	color:red;
+}
+p{
+	font-size:140%;
+	font-weight: bold;
+	color:#00ccff;
+}
+span{
+		color:white;
+		font-weight: bold;
+	
+}
+a{
+	text-decoration:none;
+	color:aqua;
+	background-color:00ffff;
+	
+}
+a:visited{
+    color:aqua;
+}
+a:hover{
+	font-weight: bold;
+}
+
+input,select{
+	font-family: inherit;
+	font-size: 100%;
+}
+select{
+	height:50px;
+	opasit:0.5;
+}
+input[type=text],input[type=password], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type=submit]{
+    width: 40%;
+    background-color: #00ccff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3b88c3;
+}
+table{
+	margin: 0px auto;
+}
+table, th, td {
+    border: 5px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;  
+    color:white; 
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.msg{
+	color:red;
+	font-size: 100%;
+	
+}
+.msg2{
+	color:aqua;
+	font-size: 150%;
+    padding-top:15%;
+	
+}
